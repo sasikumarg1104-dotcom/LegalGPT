@@ -44,7 +44,7 @@ st.set_page_config(
 import os
 import streamlit as st
 
-logo_path = r"C:\Users\Admin\Downloads\DeWatermark.ai_1761195400402.jpg"
+logo_path = r"DeWatermark.ai_1761195400402.jpg"
 
 with st.sidebar:
     st.markdown("<h2 style='text-align: top;'>LegalGPT</h2>", unsafe_allow_html=True)
@@ -124,3 +124,4 @@ if uploaded_file:
 # ----------------------------
 st.markdown("---")
 st.markdown('<p style="color:gray; font-size:12px;">© 2025 LegalGPT | Built with Python, Streamlit & OpenAI</p>', unsafe_allow_html=True)
+
