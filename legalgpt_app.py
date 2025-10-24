@@ -8,7 +8,7 @@ import os
 # ----------------------------
 # Initialize OpenAI
 # ----------------------------
-client = OpenAI(api_key="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")  # <-- Replace with your OpenAI key
+client = OpenAI(api_key="YOUR_KEY_HERE")  # <-- Replace with your OpenAI key
 
 # ----------------------------
 # Risk Score Function
@@ -124,4 +124,5 @@ if uploaded_file:
 # ----------------------------
 st.markdown("---")
 st.markdown('<p style="color:gray; font-size:12px;">© 2025 LegalGPT | Built with Python, Streamlit & OpenAI</p>', unsafe_allow_html=True)
+
 
