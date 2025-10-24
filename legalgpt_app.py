@@ -8,7 +8,7 @@ import os
 # ----------------------------
 # Initialize OpenAI
 # ----------------------------
-client = OpenAI(api_key="YOUR_KEY_HERE")  # <-- Replace with your OpenAI key
+client = OpenAI(api_key="YOUR_KEY_HERE")
 
 # ----------------------------
 # Risk Score Function
@@ -124,5 +124,6 @@ if uploaded_file:
 # ----------------------------
 st.markdown("---")
 st.markdown('<p style="color:gray; font-size:12px;">© 2025 LegalGPT | Built with Python, Streamlit & OpenAI</p>', unsafe_allow_html=True)
+
 
 
